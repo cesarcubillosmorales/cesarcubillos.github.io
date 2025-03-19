@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<header style="
+    background-color: #ff8800;
+    color: white;
+    padding: 40px 20px; /* más espacio vertical */
+    position: relative;
+    overflow: hidden;
+    height: 350px;"> <!-- incrementa aquí para mostrar más imagen -->
+
+    <img src="images/seminario.png" alt="Seminario" style="
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: top;  
+        opacity: 0.2;
+        z-index: 0;">
+
+    <div style="position: relative; z-index: 1;">
+        <h1 id="title">Conferencista y Escritora Motivacional</h1>
+        <img class="profile" src="images/perfil.jpeg" alt="Elizabeth Arcila" style="
+            width:180px;
+            height:180px;
+            border-radius:50%;
+            border:3px solid white;">
+
+ <!-- Foto circular debajo del título -->
+       
+
+
+
+
+
+
+
+    </div>
+</header>
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elizabeth Arcila | Conferencista Motivacional</title>
+    <style>
+        body {
+            margin:0; padding:0;
+            font-family: Arial, sans-serif;
+            background-color: #cceeff; 
+            color: #333;
+            text-align:center;
+        }
+        header, footer {
+            background-color: #ff8800; 
+            color:white;
+            padding:20px;
+            position: relative;
+        }
+        header::after, footer::before {
+            content: "";
+            position: absolute;
+            left: 0;
+            width: 100%;
+            height: 50px;
+            background-color: #ff8800;
+            clip-path: ellipse(100% 60% at 50% 40%);
+        }
+        header::after {
+            bottom: -25px;
+        }
+        footer::before {
+            top: -25px;
+            transform: rotate(180deg);
+        }
+        section {
+            padding: 20px;
+            max-width:800px;
+            margin:auto;
+            background-color:#cceeff;
+        }
+        .book{
+            background-color:white;
+            border-radius:10px;
+            border:2px solid #ff8800;
+            padding:15px;
+            margin:15px auto;
+        }
+        button{
+            background:#ff8800;
+            color:white;
+            border:none;
+            padding:10px;
+            border-radius:5px;
+            cursor:pointer;
+            margin-top:10px;
+        }
+        img.profile {
+            width:150px;
+            height:150px;
+            border-radius:50%;
+            border:4px solid white;
+        }
+    </style>
+</head>
+<body oncontextmenu="return false;">
+
+
+
+<section>
+    <h2 id="about-title">Acerca de la Autora</h2>
+    <p id="description">Inspiro y empodero a las personas mediante seminarios, conferencias y mis libros.</p>
+    <button onclick="toggleBio()"><span id="bio-btn">Mostrar Biografía Completa</span></button>
+    <div id="bio" style="display:none;text-align:left;">
+        <p id="full-bio">
+            <!-- Coloca aquí tu biografía completa en español -->
+
+Acerca de la Autora 
+
+Elizabeth Arcila Uhia
+ 
+Abogada de la Universidad de la Sabana de Bogotá, Especialista en 
+Gerencia de Mercadeo de la Universidad Tecnológica de Bolívar.  Science ESL General Art Conestoga College. Ontario Canadá.
+
+Durante sus estudios de abogada trabajo con el abogado y escritor 
+Fernando Iriarte Martínez como asistente judicial llevando casos en 
+Derechos de Autor, familia y trabajo.
+Como abogada participó en algunas de las plenarias que cambiaron la 
+Constitución Política de Colombia 1991
+
+Su carrera como emprendedora ha sido marcada por lanzar nuevas 
+empresas al mercado o asesorar compañías que enfrentan profundas 
+crisis y grandes desafíos llevándolas a altos niveles de ventas.
+
+Durante 10 años vinculada a la multinacional Rainbow Inc. con la que 
+trabajó como Gerente Nacional de Marketing abriendo mercado, y luego 
+tuvo su propia distribuidora Productos del Futuro en la que tuvo la 
+oportunidad de abrir plazas de trabajo a muchas personas. 
+
+Fue conferencista de Fenalco, Cámara de Comercio y otras 
+organizaciones. 
+
+En su trabajo como directora de Mercadeo de la Universidad Tecnológica 
+de Bolívar tuvo la oportunidad de hacer el lanzamiento del
+Programa de Ciencia Política como hecho histórico en la Costa Caribe.
+
+ Fue cofundadora del movimiento 
+Político " Cartagena Libre" que logro destacarse por su participación en 
+Construcción de ciudadanía con transparencia y avanzada.
+
+En su paso por Estados Unidos trabajó para la Comunidad Latina a través 
+de grupos de apoyo con la Iglesia.
+
+Cuando llego a Canadá con su familia atravesando por las mismas 
+circunstancias que todo inmigrante la llevó a ponerse en pie por ellos, 
+capacitarse y crear un Programa Completo que ayuda a lanzar empresarios 
+Latinos al mercado canadiense. Trabajo por muchos a través de Small 
+Business Centre en la Alcaldía de Kitchener, Provincia de Ontario; Canadá, 
+
+El abrir mercados, diseñar e implementar programas de mercadeo y 
+ventas ha sido su trabajo durante muchos años, lo que la llevó a 
+desarrollar programas de formación para un mejor futuro. En su recorrido 
+por países como Colombia, Estados Unidos, Canadá, México y Venezuela 
+a la fecha cuenta con más de 6.000 alumnos de sus seminarios. 
+Creadora de Programa Orange Sky para creación de empresa en Canadá 
+con el cual se ha formado y capacitado más de 1000 inmigrantes quienes 
+muchos de ellos han iniciado sus empresas.
+Autora del Libro Manual Práctico de Mercadeo, Ventas y Servicio al 
+Cliente, Historias de un Inmigrante y el libro de versos y poesías Mar 
+Rosado. 
+Ganadora del Premio Liderazgo Latino 2015 Mujer de año de Canadá y 
+Líder Latino en la Región de Waterloo por los miembros del Parlamento 
+Provincial MPP de Canadá. Miembro del Comité de Grants desde 2015 de 
+Immigration Partnership Organization, KWCF Kitchener Waterloo 
+Community Foundation, Steering Group Work Pilar Immigration 
+Partnership; Ontario, Canada. 
+Su familia esta compuesta por su esposo Cesar Augusto; y sus dos hijos 
+María Alejandra y Juan Fernando.
+Miembro activo de la Iglesia Gleancairn Church, Waterloo Región Ontario; 
+Canadá, y la Iglesia Conexión y Vida Cartagena, Colombia.
+Fundadora CEO de la Agencia Educativa Orange Sky, que a través del 
+Programa del Gobierno Canadienses ha llevado numerosos estudiantes y 
+sus familias a vivir y trabajar en Canadá.
+
+
+        </p>
+    </div>
+</section>
+
+<section>
+    <h2 id="books-title">Mis Libros</h2>
+    <div class="book">
+        <h3 id="book1-title">Manual Práctico de Ventas y Servicio al Cliente</h3>
+        <p id="book1-desc">Guía práctica para mejorar las ventas y atención al cliente.</p>
+    </div>
+    <div class="book">
+        <h3 id="book2-title">Manual Práctico de Emprenderismo</h3>
+        <p id="book2-desc">Guía esencial para futuros emprendedores y empresarios.</p>
+    </div>
+</section>
+
+<footer>
+    <p>© 2025 Todos los derechos reservados.</p>
+    <button onclick="setLanguage('es')">Español</button>
+    <button onclick="setLanguage('en')">English</button>
+</footer>
+
+<script>
+let lang='es';
+
+function toggleBio(){
+    let bio=document.getElementById('bio');
+    bio.style.display=(bio.style.display=='none')?'block':'none';
+    document.getElementById('bio-btn').innerText=
+        (bio.style.display=='block')?(lang=='es'?'Ocultar Biografía':'Hide Biography'):
+        (lang=='es')?'Mostrar Biografía Completa':'Show Full Biography';
+}
+
+function setLanguage(language){
+    lang=language;
+    if(lang=='en'){
+        document.getElementById('title').innerText="Motivational Speaker & Author";
+        document.getElementById('bio-btn').innerText="Show Full Biography";
+        document.getElementById('about-title').innerText="About the Author";
+        document.getElementById('description').innerText="I inspire and empower people through seminars, lectures, and my books.";
+        document.getElementById('books-title').innerText="My Books";
+        document.getElementById('book1-desc').innerText="A practical guide to improve sales and customer service.";
+        document.getElementById('book2-title').innerText="Practical Handbook of Entrepreneurship";
+        document.getElementById('book2-desc').innerText="Essential guide for entrepreneurs and new business owners.";
+        document.getElementById('full-bio').innerHTML="";
+
+    }else{
+        location.reload();
+    }
+}
+
+// Bloqueo básico de teclas para seguridad
+document.onkeydown=e=>{
+    if(e.keyCode==123||(e.ctrlKey&&e.shiftKey&&['I','J','C'].includes(e.key.toUpperCase())))return false;
+};
+document.addEventListener('contextmenu',e=>e.preventDefault());
+</script>
+
+</body>
+</html>
+
